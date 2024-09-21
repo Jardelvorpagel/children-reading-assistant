@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Home() {
   return (
-    <div>
+    <div className="container">
       <h1>Welcome to Reading Assistant!</h1>
       <Link to="/reading">
         <button>Start Reading</button>

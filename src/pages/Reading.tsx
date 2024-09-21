@@ -10,7 +10,7 @@ function Reading() {
   };
 
   return (
-    <div>
+    <div className="container">
       <h1>Let's Read!</h1>
       <p>{text}</p>
       <button onClick={speak}>Read Aloud</button>
